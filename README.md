@@ -1,6 +1,6 @@
 # Real-Estate-Advance-Data-Science-Application-Project
 
-##Project Overview
+## Project Overview
 In this comprehensive capstone project, we leveraged data science techniques to provide insights, predictions, and recommendations in the real estate domain. The project unfolds through various stages, covering data gathering, cleaning, exploratory analysis, modeling, recommendation systems, and the deployment of a user-friendly application.
 
 #Table of Contents
