@@ -1,7 +1,7 @@
 streamlit==1.32.0
 pandas==2.2.2
 plotly.express
-pickle
+pickle==3.12.4
 WordCloud
 matplotlib
 seaborn
