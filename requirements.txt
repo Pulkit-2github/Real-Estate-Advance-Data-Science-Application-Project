@@ -1,9 +1,9 @@
-1.  streamlit
-2.  pandas
-3.  plotly.express
-4.  pickle
-5.  WordCloud
-6.  matplotlib
-7.  seaborn
-8.  scikit-learn
-9.  xgboost
+streamlit
+pandas
+plotly.express
+pickle
+WordCloud
+matplotlib
+seaborn
+scikit-learn
+xgboost
