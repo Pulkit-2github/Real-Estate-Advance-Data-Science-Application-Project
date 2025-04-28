@@ -11,8 +11,8 @@ st.set_page_config(page_title="Plotting Demo")
 
 st.title('Analytics')
 
-new_df = pd.read_csv(r"C:\Users\User\Downloads\data_viz1.csv")
-feature_text = pickle.load(open(r"C:\Users\User\Downloads\feature_text.pkl",'rb'))
+new_df = pd.read_csv('data_viz1.csv')
+feature_text = pickle.load(open('feature_text.pkl','rb'))
 
 
 group_df = new_df.groupby('sector').mean(['price_per_sqft','price','built_up_area','study room',
