@@ -24,9 +24,6 @@ with open('pipeline.pkl', 'rb') as f:
 with open('df.pkl','rb') as file:
     df = pickle.load(file)
 
-with open('location_distance.pkl','rb') as t:
-    location_distance = pickle.load(t)
-
 
 st.header('Enter your inputs')
 
