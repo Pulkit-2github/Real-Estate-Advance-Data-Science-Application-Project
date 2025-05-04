@@ -14,11 +14,7 @@ Model Selection & Productionalization
 Building the Analytics Module
 Building the Recommender System
 Deploying the Application on AWS
-Conclusion
-How to Use
-Prerequisites
-Repository Structure
-Contact
+
 Data Gathering
 The project commenced with the collection of real estate data, which was self-scraped from the 99acres website. Similar datasets from other property listing websites were also explored, ensuring a diverse and representative dataset.
 
@@ -40,10 +36,13 @@ Multiple feature selection techniques were employed to identify the most impactf
 Model Selection & Productionalization
 An exhaustive comparison of various regression models was conducted to determine the most effective model for predicting property prices. The process involved implementing a detailed price prediction pipeline that incorporated encoding methods, ensuring the robustness and accuracy of the chosen model. The selected model was then deployed using Streamlit, creating an intuitive and user-friendly web interface for end-users.
 
-Regression Models Considered
+## Regression Models Considered
+
 Linear Regression: A foundational regression model that assumes a linear relationship between the input features and the target variable.
 Support Vector Regression (SVR): A regression technique that leverages support vector machines to find a hyperplane that best fits the data, allowing for nonlinear relationships.
+
 Random Forest Regressor: An ensemble learning method that builds a multitude of decision trees during training and outputs the average prediction of the individual trees.
+
 LASSO Regression: A linear regression technique that incorporates L1 regularization, encouraging sparsity in the coefficient estimates.
 Ridge Regression: A linear regression technique with L2 regularization, which helps prevent multicollinearity and stabilizes the model.
 Gradient Boosting Regressor: An ensemble learning method that builds trees sequentially, with each tree correcting the errors of the previous ones.
@@ -72,13 +71,16 @@ Python 3.7+
 Streamlit
 Pandas
 Scikit-learn
+
+
 Repository Structure
 data/: Contains the raw and cleaned data.
 notebooks/: Jupyter notebooks for data exploration and model development.
 models/: Trained models and scripts for model training.
 app.py: Main application script for Streamlit.
-README.md: Project overview and instructions.
-Contact
-For any questions or issues, please contact Yogesh.
 
-Feel free to use, modify, and share this project. Contributions are welcome!
+
+README.md: Project overview and instructions.
+
+
+
