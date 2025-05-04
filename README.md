@@ -62,7 +62,7 @@ Three distinct recommendation models were developed, each focusing on different 
 Deploying the Application on AWS
 The entire application, encompassing prediction, analytics, and recommendation functionalities, was deployed on Amazon Web Services (AWS). This step ensured the scalability and accessibility of the project.
 
-Conclusion
+## Conclusion
 This capstone project not only demonstrates proficiency in data science techniques such as feature engineering, exploratory analysis, and model building but also showcases the deployment of a real-world application, making valuable insights and recommendations accessible to end-users.
 
 How to Use
