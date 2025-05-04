@@ -15,25 +15,25 @@ Building the Analytics Module
 Building the Recommender System
 Deploying the Application on AWS
 
-Data Gathering
+## Data Gathering
 The project commenced with the collection of real estate data, which was self-scraped from the 99acres website. Similar datasets from other property listing websites were also explored, ensuring a diverse and representative dataset.
 
-Data Cleaning and Merging
+## Data Cleaning and Merging
 To prepare the dataset for analysis, a meticulous data cleaning process was undertaken, handling missing values and ensuring consistency. The data was then merged, bringing together information on houses and flats into a unified dataset.
 
-Feature Engineering
+## Feature Engineering
 The dataset underwent feature engineering to enhance its richness and informativeness. New features, such as additional room indicators, area with type specifications, age of possession, furnish details, and a luxury score, were introduced to provide a more detailed representation of the properties.
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Univariate and multivariate analyses were conducted to uncover patterns and relationships within the data. The use of Pandas Profiling facilitated a deeper understanding of data distribution and structure.
 
-Outlier Detection and Missing Value Imputation
+## Outlier Detection and Missing Value Imputation
 Outliers were identified and removed to ensure the robustness of subsequent analyses. Missing values, particularly in critical columns like area and bedroom, were addressed using appropriate imputation techniques.
 
-Feature Selection
+## Feature Selection
 Multiple feature selection techniques were employed to identify the most impactful variables for modeling. These included correlation analysis, random forest and gradient boosting feature importance, permutation importance, LASSO, recursive feature elimination, and SHAP (Explainable AI).
 
-Model Selection & Productionalization
+# Model Selection & Productionalization
 An exhaustive comparison of various regression models was conducted to determine the most effective model for predicting property prices. The process involved implementing a detailed price prediction pipeline that incorporated encoding methods, ensuring the robustness and accuracy of the chosen model. The selected model was then deployed using Streamlit, creating an intuitive and user-friendly web interface for end-users.
 
 ## Regression Models Considered
