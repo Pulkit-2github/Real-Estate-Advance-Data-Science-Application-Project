@@ -39,33 +39,40 @@ An exhaustive comparison of various regression models was conducted to determine
 ## Regression Models Considered
 
 Linear Regression: A foundational regression model that assumes a linear relationship between the input features and the target variable.
+
 Support Vector Regression (SVR): A regression technique that leverages support vector machines to find a hyperplane that best fits the data, allowing for nonlinear relationships.
 
 Random Forest Regressor: An ensemble learning method that builds a multitude of decision trees during training and outputs the average prediction of the individual trees.
 
 LASSO Regression: A linear regression technique that incorporates L1 regularization, encouraging sparsity in the coefficient estimates.
+
 Ridge Regression: A linear regression technique with L2 regularization, which helps prevent multicollinearity and stabilizes the model.
+
 Gradient Boosting Regressor: An ensemble learning method that builds trees sequentially, with each tree correcting the errors of the previous ones.
+
 Decision Tree Regressor: A non-linear regression model that splits the dataset into subsets based on the most significant attribute at each node.
+
 K-Nearest Neighbors Regressor: A regression model that predicts the target variable by averaging the values of its k-nearest neighbors.
+
 ElasticNet Regression: A linear regression technique that combines L1 and L2 regularization terms.
+
 The comparison involved assessing the performance of each model on relevant evaluation metrics, considering factors such as accuracy, precision, and recall. The most suitable regression model was selected based on its overall performance and ability to generalize to new data.
 
 The chosen regression model was then integrated into a comprehensive price prediction pipeline, which included preprocessing steps, encoding methods, and handling of various features to ensure optimal performance. The final model was deployed using Streamlit, creating an interactive and user-friendly web interface for predicting property prices. This productionalization step made the model accessible to end-users, allowing them to make informed decisions in the real estate domain.
 
-Building the Analytics Module
+# Building the Analytics Module
 An analytics module was developed to visually represent key insights about the real estate data. Geographical maps, word clouds for amenities, scatter plots, pie charts, and box plots were employed to offer users a comprehensive understanding of the market.
 
-Building the Recommender System
+# Building the Recommender System
 Three distinct recommendation models were developed, each focusing on different aspects of the real estate dataset: top facilities, price details, and location advantages. The goal was to provide users with personalized recommendations tailored to their preferences and priorities. Additionally, a user-friendly recommendation interface was crafted using Streamlit, enhancing the accessibility of the recommendation systems.
 
-Deploying the Application on AWS
+# Deploying the Application on AWS
 The entire application, encompassing prediction, analytics, and recommendation functionalities, was deployed on Amazon Web Services (AWS). This step ensured the scalability and accessibility of the project.
 
 ## Conclusion
 This capstone project not only demonstrates proficiency in data science techniques such as feature engineering, exploratory analysis, and model building but also showcases the deployment of a real-world application, making valuable insights and recommendations accessible to end-users.
 
-How to Use
+# How to Use
 Prerequisites
 Python 3.7+
 Streamlit
@@ -73,7 +80,7 @@ Pandas
 Scikit-learn
 
 
-Repository Structure
+# Repository Structure
 data/: Contains the raw and cleaned data.
 notebooks/: Jupyter notebooks for data exploration and model development.
 models/: Trained models and scripts for model training.
