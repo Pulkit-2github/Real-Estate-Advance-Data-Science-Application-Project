@@ -33,11 +33,12 @@ wordcloud = WordCloud(width = 800, height = 800,
                       stopwords = set(['s']),  # Any stopwords you'd like to exclude
                       min_font_size = 10).generate(feature_text)
 
-plt.figure(figsize = (8, 8), facecolor = None)
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis("off")
-plt.tight_layout(pad = 0)
-st.pyplot()
+fig_wc, ax = plt.subplots(figsize=(8, 8), facecolor=None)
+ax.imshow(wordcloud, interpolation='bilinear')
+ax.axis("off")
+plt.tight_layout(pad=0)
+st.pyplot(fig_wc)
+
 
 st.header('Area Vs Price')
 
@@ -81,8 +82,8 @@ st.plotly_chart(fig3, use_container_width=True)
 st.header('Side by Side Distplot for property type')
 
 fig3 = plt.figure(figsize=(10, 4))
-sns.distplot(new_df[new_df['property_type'] == 'house']['price'],label='house')
-sns.distplot(new_df[new_df['property_type'] == 'flat']['price'], label='flat')
+sns.histplot(new_df[new_df['property_type'] == 'house']['price'],label='house')
+sns.histplot(new_df[new_df['property_type'] == 'flat']['price'], label='flat')
 plt.legend()
 st.pyplot(fig3)
 
