@@ -1,10 +1,10 @@
 streamlit==1.32.0
 pandas==2.2.2
-plotly.express
-WordCloud
-matplotlib
-seaborn
-scikit-learn==1.4.2
+plotly.express==5.22.0
+wordcloud==1.9.4
+matplotlib==3.8.4
+seaborn==0.13.2
+scikit-learn==1.6.1
 xgboost==2.0.3
 numpy==1.26.4
-gdown
+gdown==5.2.0
