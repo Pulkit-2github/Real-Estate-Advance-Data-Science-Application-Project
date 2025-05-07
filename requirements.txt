@@ -7,3 +7,4 @@ seaborn
 scikit-learn==1.4.2
 xgboost==2.0.3
 numpy==1.26.4
+gdown
