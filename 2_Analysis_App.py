@@ -84,7 +84,7 @@ st.plotly_chart(fig3, use_container_width=True)
 
 st.header('Side by Side Distplot for property type')
 
-fig3 = plt.figure(figsize=(10, 4))hsns.distplot(new_df[new_df['property_type'] == 'house']['price'],label='house')hsns.distplot(new_df[new_df['property_type'] == 'flat']['price'], label='flat')
+fig3 = plt.figure(figsize=(10, 4))sns.distplot(new_df[new_df['property_type'] == 'house']['price'],label='house')sns.distplot(new_df[new_df['property_type'] == 'flat']['price'], label='flat')
 plt.legend()
 st.pyplot(fig3)
 
