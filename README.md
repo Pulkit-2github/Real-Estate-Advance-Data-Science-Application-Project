@@ -13,7 +13,7 @@ Feature Selection
 Model Selection & Productionalization
 Building the Analytics Module
 Building the Recommender System
-Deploying the Application on AWS
+Deploying the Application on Render
 
 ## Data Gathering
 The project commenced with the collection of real estate data, which was self-scraped from the 99acres website. Similar datasets from other property listing websites were also explored, ensuring a diverse and representative dataset.
@@ -66,8 +66,8 @@ An analytics module was developed to visually represent key insights about the r
 # Building the Recommender System
 Three distinct recommendation models were developed, each focusing on different aspects of the real estate dataset: top facilities, price details, and location advantages. The goal was to provide users with personalized recommendations tailored to their preferences and priorities. Additionally, a user-friendly recommendation interface was crafted using Streamlit, enhancing the accessibility of the recommendation systems.
 
-# Deploying the Application on AWS
-The entire application, encompassing prediction, analytics, and recommendation functionalities, was deployed on Amazon Web Services (AWS). This step ensured the scalability and accessibility of the project.
+# Deploying the Application on Render
+The entire application, encompassing prediction, analytics, and recommendation functionalities, was deployed on Render. This step ensured the scalability and accessibility of the project.
 
 ## Conclusion
 This capstone project not only demonstrates proficiency in data science techniques such as feature engineering, exploratory analysis, and model building but also showcases the deployment of a real-world application, making valuable insights and recommendations accessible to end-users.
